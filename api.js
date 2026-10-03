@@ -53,7 +53,7 @@ window.Связь = (function () {
   }
 
   function телеграмСсылка(текст) {
-    return 'https://t.me/' + Н.телеграм + '?text=' + encodeURIComponent(текст);
+    return 'https://t.me/' + Н.телеграм + '?text=' + encodeURIComponent('Пишу со страницы «Калькулятор соцконтракта».\n' + текст);
   }
 
   function замечаниеТекстом(т) {
